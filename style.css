@@ -10,12 +10,14 @@ body {
 }
 
 a {
-  color: #0000ee;
+  color: #555; /* softer gray */
   text-decoration: underline;
+  text-decoration-color: #aaa; /* lighter underline */
 }
 
 a:hover {
-  color: #0000aa;
+  color: #222; /* slightly darker on hover */
+  text-decoration-color: #666; /* stronger underline on hover */
 }
 
 h2, h3, h4 {
