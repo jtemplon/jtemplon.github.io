@@ -2,7 +2,7 @@
 body {
   max-width: 800px;
   margin: 0;
-  padding: 20px;
+  padding: 40px;
   font-family: Helvetica, Arial, sans-serif;
   background-color: #ffffff;
   color: #000000;
@@ -37,7 +37,7 @@ p {
   gap: 20px; /* space between image and text */
   max-width: 800px;
   margin-left: 0;
-  padding: 20px;
+  padding: 0;
 }
 
 .container img {
