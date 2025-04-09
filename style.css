@@ -18,7 +18,7 @@ a:hover {
   color: #0000aa;
 }
 
-h1, h2, h3, h4 {
+h2, h3, h4 {
   font-weight: normal;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
@@ -26,4 +26,33 @@ h1, h2, h3, h4 {
 
 p {
   margin-bottom: 1em;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start; /* aligns items at the top */
+  gap: 20px; /* space between image and text */
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.container img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text {
+  flex: 1; /* allows the text to take up the remaining space */
+}
+
+h1 {
+  font-size: 2.5rem;         /* bigger size */
+  font-weight: bold;         /* strong weight */
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  color: #111;               /* slightly softer than pure black */
+  border-bottom: 2px solid #eee; /* optional subtle underline */
+  padding-bottom: 0.3rem;
 }
