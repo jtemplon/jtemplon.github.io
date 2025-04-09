@@ -37,7 +37,7 @@ p {
 }
 
 .container img {
-  width: 150px;
+  max-width: 50%;
   height: auto;
   border-radius: 8px;
 }
