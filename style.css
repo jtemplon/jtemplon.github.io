@@ -28,7 +28,7 @@ h2, h3, h4 {
 
 p {
   margin-bottom: 1em;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .container {
@@ -60,4 +60,15 @@ h1 {
   color: #111;               /* slightly softer than pure black */
   border-bottom: 2px solid #eee; /* optional subtle underline */
   padding-bottom: 0.3rem;
+}
+
+.social-icon {
+  margin-right: 10px;
+  vertical-align: middle;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.social-icon:hover {
+  opacity: 1;
 }
